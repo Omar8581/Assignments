@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <style>
+    .ankors li {
+      margin-right: 20px;
+    }
+    td, th {
+      border: 1px solid;
+      text-align: left;
+      padding: 8px;
+    }
+    table {
+      border-collapse: collapse;
+    }
+  </style>
+</head>
+<body>
+  <header style="
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 10px;
+  ">
+    <h1>Welcome to Semantic HTML Showcase</h1>
+    <p><mark>This page is designed using semantic HTML5 tags.</mark></p>
+  </header>
+
+  <nav style="border: 1px solid gray; border-radius: 5px; margin-bottom: 10px;">
+    <ul class="ankors" style="list-style: none; display: flex;">
+      <li><a href="#">About</a></li>
+      <li><a href="#">Feature</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Coming Soon</a></li>
+    </ul>
+  </nav>
+
+  <main style="
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 10px;
+  ">
+    <header style="
+      border: 1px solid gray;
+      border-radius: 5px;
+      padding: 20px;
+      margin-bottom: 10px;
+    ">
+      <h2>About Semantic HTML</h2>
+      <p>
+        Semantic HTML introduces meaning to the web page rather than just
+        presentation. For example, using &lt;article&gt; for articles and &lt;nav&gt; for navigation.
+      </p>
+    </header>
+
+    <section style="
+      border: 1px solid gray;
+      border-radius: 5px;
+      padding: 20px;
+      margin-bottom: 10px;
+    ">
+      <div style="
+        border: 1px solid gray;
+        border-radius: 5px;
+        padding: 20px;
+        margin-bottom: 10px;
+      ">
+        <h3>Hyperlinks</h3>
+        <p>
+          Visit <a href="https://www.w3schools.com" target="_blank">W3Schools.com</a> to learn HTML. <br /><br />
+          <a href="#list">Go to List Section</a>
+        </p>
+      </div>
+
+      <div style="
+        border: 1px solid gray;
+        border-radius: 5px;
+        padding: 20px;
+        margin-bottom: 10px;
+      ">
+        <h3>Accessible Image</h3>
+        <img src="Screenshot_2025-07-01_071951.png" alt="Basic DOM structure diagram" />
+        <p style="margin-left: 20px;">A basic DOM structure image</p>
+      </div>
+
+      <div id="list" style="
+        border: 1px solid gray;
+        border-radius: 5px;
+        padding: 20px;
+        margin-bottom: 10px;
+      ">
+        <h2>Useful HTML Lists</h2>
+        <h3>Unordered List:</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+        <h3>Ordered List (type="A"):</h3>
+        <ol type="A">
+          <li>Semantic Tags</li>
+          <li>Forms</li>
+          <li>Tables</li>
+        </ol>
+        <h3>Description List:</h3>
+        <dl>
+          <dt>coffee</dt>
+          <dd>- black hot drink</dd>
+          <dt>milk</dt>
+          <dd>- white cold drink</dd>
+        </dl>
+      </div>
+
+      <div style="
+        border: 1px solid gray;
+        border-radius: 5px;
+        padding: 20px;
+        margin-bottom: 10px;
+      ">
+        <h3>Table Example</h3>
+        <table style="width: 100%;">
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Semantic Tag</td>
+              <td>Gives meaning to content</td>
+            </tr>
+            <tr>
+              <td>Non-semantic Tag</td>
+              <td>Only used for layout (&lt;div&gt;,&lt;span&gt;)</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="2">More tags to be added soon...</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </section>
+
+    <div style="
+      border: 1px solid gray;
+      border-radius: 5px;
+      padding: 20px;
+      margin-bottom: 10px;
+    ">
+      <h3>Quick Tip</h3>
+      <p>
+        Always use the <span style="font-size: small;">alt</span> attribute in &lt;img&gt; for accessibility and SEO.
+      </p>
+    </div>
+  </main>
+  <section style="
+      border: 1px solid gray;
+      border-radius: 5px;
+      padding: 20px;
+      margin-bottom: 10px;
+    " >
+    <form action="">
+        <h2>Contact Us</h2>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="40"></textarea><br><br>
+
+        <button type="submit">Send</button>
+
+    </form>
+  </section>
+
+  <footer style="
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 10px;
+  ">
+    <p>&copy; 2025 Semantic Web Tutorial</p>
+    <p>Validate your code at <a href="https://validator.w3.org/" target="_blank">W3C Validator</a></p>
+  </footer>
+</body>
+</html>

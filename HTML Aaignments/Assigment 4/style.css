@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about-above {
+    text-align: center;
+    width: 50%;
+}
+
+.line {
+    width: 50px;
+    height: 2px;
+    background-color: rgb(190, 186, 186);
+    margin: 10px auto;
+}
+
+p {
+    color: rgb(190, 186, 186);
+}
+
+.about-info {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left {
+
+    width: 45%;
+}
+
+.right {
+
+    width: 45%;
+}
+
+.inbar {
+    width: 100%;
+    height: 5px;
+    background-color: gray;
+    border-radius: 3px;
+}
+
+.outerbar {
+    height: 5px;
+    background-color: rgb(197, 93, 112);
+    border-radius: 3px;
+}
+
+
+.persentage{
+    color:rgb(190, 186, 186) ;
+}
+
+.bold {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+
+.cardds{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+   
+}
+
+.cardd{
+    
+    width: 18%;
+}
+.img{
+    width: 100%;
+    
+}
+img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.team-info{
+    margin: 5px auto;
+    position: relative;
+    left:65px ;
+}
+
+.team-info .bold{
+    position: relative;
+    left: 5px;
+}
+
+.sp-font{
+    font-size: x-small;
+    position: relative;
+    left: 20px;
+}
+
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 50px;
+}
+
+
