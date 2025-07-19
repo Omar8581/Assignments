@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-     font-family: "Lobster Two", sans-serif;
+    font-family: "Lobster Two", sans-serif;
+}
+.cl{
+    clear: both;
 }
 
 
@@ -40,17 +43,7 @@ img{
     height: 100%;
 }
 
-a{
-      display: inline-block;
-      text-decoration: none;
-      border: 1px solid #15c0c7;
-      background-color: #15c0c7;
-      border-radius: 30px;
-      margin: 50px 0;
-      margin-left: 500px;
-      padding: 10px 20px;
-      color: white;
-}
+
 
 .colored{
     color: #15c0c7;
@@ -68,4 +61,23 @@ span{
 
 .cardd p{
     color: gray;
+}
+
+a{
+      display: inline-block;
+      text-decoration: none !important;
+       background-color: #15c0c7 !important;
+      border: 1px solid #15c0c7;
+      color: white !important;
+      border-radius: 30px;
+      margin: 50px 0;
+      margin-left: 500px;
+      padding: 10px 20px;
+      transition: all 0.5s ease;
+      
+}
+
+a:hover{
+    color: #15c0c7 !important;
+    background-color: white !important;
 }
