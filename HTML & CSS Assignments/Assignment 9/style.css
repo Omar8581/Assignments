@@ -462,9 +462,40 @@ a i:hover {
   font-weight: bold;
   font-family: sans-serif;
 }
+.contact-us i{
+  color: #ed7c03;
+  margin-right: 5px;
+}
 
+.footer{
+  display:flex ;
+  padding: 120px;
+  background-color: #9f5300;
+}
 
+.instgram,.contact-us{
+  width: 30%;
+}
+.instgram img{
+  width: 130px;
+  height: 130px;
+}
 
+.about-us-footer{
+  width: 35%;
+}
 
+.footer-images{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
+.footer .about-us-footer p{
+  line-height: 40px;
+}
 
+.footer p{
+  display: block;
+  margin-bottom:30px;
+}
