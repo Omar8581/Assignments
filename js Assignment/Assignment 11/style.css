@@ -1,0 +1,95 @@
+
+
+#blog{
+    width: 100%;
+    height: 100%;
+    background-image: url(images/imgi_4_Home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.607);
+}
+
+.crud{
+width: 100%;
+padding-top: 45px;
+text-align: center;
+color: white;
+font-size: 80px;
+margin-bottom: 50px;
+}
+
+.space{
+    margin-left: -30px;
+}
+
+.products{
+    width: 70%;
+    margin: 0 auto;
+    background-color: #85858365;
+    padding: 20px;
+    color: white;
+}
+
+.products label{
+    display:block;
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+.products input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+.products textarea{
+    display: block;
+    width: 100%;
+    resize: none;
+}
+.button-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.products button{
+    border: none;
+    background-color: #31363bcb;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.data-table{
+     width: 70%;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: #85858365;
+    padding: 20px;
+}
+
+.data-table input{
+    display: block;
+     width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+    padding-left: 30px;
+}
+
+.data-table i{
+    color: #838383;
+    transform: translate(5px , 30px);
+}
+
+
+table i {
+  cursor: pointer; 
+  font-size: 15px;
+}
+
+
